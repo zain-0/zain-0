@@ -1,73 +1,77 @@
-<div align="center">
+<h1 align="center">Hey <img src="https://raw.githubusercontent.com/SP-XD/SP-XD/refs/heads/main/images/Developer.gif" height="30px" width="30px"> I'm Muhammad Zain</h1>
+<h3 align="center">AI Automation Engineer · Agent runtimes, MCP integrations & durable workflows</h3>
 
-# Muhammad Zain
 
-**AI Automation Engineer**
+<img src="https://i.pinimg.com/originals/42/b4/22/42b4229a9ec3145edaa895b2415dd720.gif" alt="Banner" width="100%" />
 
-I build production agent runtimes, MCP integrations, and durable workflow systems with Python, TypeScript, LangGraph, and AWS.
+## 📌 About Me
+- 💡 I build the infrastructure behind reliable AI automation: agent execution, planning and delegation, connector ecosystems, MCP servers, durable background runs, and serverless delivery on AWS.
+- 🔭 At **Sketric Solutions** I work on [SketricGen](https://sketricgen.ai), a no-code AI workflow automation platform serving 10,000+ monthly users across 2,000+ connected apps. I own its LangGraph agent runtime and built its serverless connector marketplace.
+- ⚡ Migrated the runtime to LangGraph and took tool-call and conversation-corruption failures from 22% to 0%; moved inference to AWS Bedrock and cut latency by 30%.
+- 🛡️ Freelance full-stack AI engineer for **AKVR**, a UAE insurance brokerage: the whole platform, an end-to-end QA campaign, and a Slack bot on the Claude Agent SDK.
+- 🧠 Previously part-time AI engineer at **AIM Tech AI** on Iymer (agent service, MCP server, billing) and MelkPM (AI module and text-to-SQL chat).
+- 🎓 B.E. Software Engineering, NUST Islamabad. Based in Islamabad, Pakistan, working remotely with US teams.
+- 🧩 Public side of my work: [Khidmaat](https://github.com/zain-0/Khidmaat_Model) (ECG anomaly detection on AWS Lambda), a [CapsNet study](https://github.com/zain-0/AlexNet-CapsuleNet-and-ResNet-CapsuleNet) with PyTorch DDP, and [Energy Sphere](https://github.com/zain-0/ai-vs-human) (WebGPU + Three.js).
+- 💬 *Reliable agents are engineered systems, not just prompts.*
 
-[![Personal GitHub](https://img.shields.io/badge/Personal-zain--0-181717?style=flat-square&logo=github)](https://github.com/zain-0)
-[![Work GitHub](https://img.shields.io/badge/Work-zainsketric-181717?style=flat-square&logo=github)](https://github.com/zainsketric)
-![Location](https://img.shields.io/badge/Islamabad-Pakistan-0A66C2?style=flat-square&logo=googlemaps&logoColor=white)
 
-</div>
-
-## What I build
-
-I work on **SketricGen**, a no-code AI workflow automation platform serving **10,000+ monthly users** across **2,000+ connected apps**. My focus is the infrastructure behind reliable AI automation: agent execution, planning and delegation, connector ecosystems, MCP servers, durable background runs, and serverless delivery.
-
-Most of my production work lives under **[zainsketric](https://github.com/zainsketric)** and private company repositories. This profile contains my public engineering, machine-learning, and systems work.
-
-## Selected impact
-
-- Migrated an agent runtime from the OpenAI Agents SDK to **LangGraph and LangChain Deep Agents**, introducing explicit planning, sub-agent delegation, scoped workspaces, and model-agnostic execution. Tool-call and conversation-corruption failures fell from **22% to 0%**.
-- Built custom **MCP servers on AWS Lambda** for AI media workflows, with remote transport, per-app packaging, KMS-backed secret handling, and marketplace registration.
-- Made long-running automations resilient using background execution, **LangGraph checkpointing on DynamoDB**, and **Redis Streams** for cross-pod resumable streaming.
-- Architected a serverless connector marketplace with **Next.js, TypeScript, AWS CDK, Lambda, DynamoDB, API Gateway, S3, and KMS**, removing hot-path database reads through snapshot caching.
-- Implemented cost-aware LLM routing across Claude, Mistral, and Llama models on AWS Bedrock, reducing inference latency by **30%**.
-
-## Production stack
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge" alt="LangGraph" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
-  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge" alt="Model Context Protocol" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white" alt="AWS Lambda" />
-  <img src="https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white" alt="Amazon DynamoDB" />
-  <img src="https://img.shields.io/badge/Amazon_Bedrock-8A2BE2?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="Amazon Bedrock" />
-  <img src="https://img.shields.io/badge/AWS_CDK-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS CDK" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLflow" />
+## 📊 GitHub Stats & Trophies
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=zain-0&show_icons=true&theme=nightowl&hide_border=true&count_private=true&cache_seconds=86400" alt="zain-0's GitHub Stats" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=zain-0&theme=nightowl&hide_border=true&cache_seconds=86400" alt="zain-0's GitHub Streak" width="49%" />
 </p>
 
-## Public engineering work
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zain-0&layout=compact&theme=nightowl&hide_border=true&langs_count=10&cache_seconds=86400" alt="Top Languages" />
+</p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=zain-0&theme=nightowl&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="Muhammad Zain's GitHub Trophies" />
+</p>
+<p align="center">
+  <img height="280em" src="https://github-readme-activity-graph.vercel.app/graph?username=zain-0&theme=nightowl&radius=10" alt="zain-0's Activity Graph" />
+</p>
 
-- **[Khidmaat: Abnormal ECG Processor](https://github.com/zain-0/Khidmaat_Model)** - an ECG anomaly-detection pipeline reaching **98% accuracy** on MIT-BIH, with 30+ tracked MLflow and Optuna experiments and a 70% infrastructure-cost reduction.
-- **[CapsNet: AlexNet vs ResNet](https://github.com/zain-0/AlexNet-CapsuleNet-and-ResNet-CapsuleNet)** - capsule-network research with multi-GPU distributed training using PyTorch DDP, CUDA, and NCCL.
-- **[Energy Sphere](https://github.com/zain-0/ai-vs-human)** - a WebGPU-first Three.js system with adaptive quality tiers, WebGL2 fallback, deterministic visual tests, and explicit performance budgets.
-- **[Khidmaat backend](https://github.com/zain-0/khidmaat-backend)** - backend services supporting the Khidmaat system.
 
-## Background
 
-- **AI / Automation Engineer** at Sketric Solutions
-- **AI Engineer** at AIM Tech AI
-- **B.E. Software Engineering**, National University of Sciences and Technology (NUST), 2026
 
-## Current focus
+## 🛠️ Languages & Tools
 
-Agent reliability, multi-agent orchestration, MCP ecosystems, durable execution, connector infrastructure, RAG, serverless architecture, and observable AI systems.
+> ## Programming Languages
+<p align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original-wordmark.svg" alt="Go" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="48" height="48" style="margin: 4px;" /></p>
 
----
+> ## AI & Agents
+<p align="center"><img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" /> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" /> <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP" /> <img src="https://img.shields.io/badge/Claude_Agent_SDK-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Agent SDK" /> <img src="https://img.shields.io/badge/AWS_Bedrock-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Bedrock" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" alt="Jupyter" width="48" height="48" style="margin: 4px;" /></p>
+
+> ## Frontend
+<p align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="48" height="48" style="margin: 4px;" /> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="Next.js" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/threejs/threejs-original.svg" alt="Three.js" width="48" height="48" style="margin: 4px;" /></p>
+
+> ## Backend
+<p align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" alt="Express.js" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prisma/prisma-original.svg" alt="Prisma" width="48" height="48" style="margin: 4px;" /></p>
+
+> ## Database
+<p align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" alt="Redis" width="48" height="48" style="margin: 4px;" /> <img src="https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white" alt="DynamoDB" /></p>
+
+> ## DevOps & Cloud
+<p align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="48" height="48" style="margin: 4px;" /> <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" alt="AWS" width="48" height="48" style="margin: 4px;" /> <img src="https://www.vectorlogo.zone/logos/amazon_awslambda/amazon_awslambda-icon.svg" alt="AWS Lambda" width="48" height="48" style="margin: 4px;" /> <img src="https://img.shields.io/badge/AWS_CDK-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS CDK" /></p>
+
+> ## Tools
+<p align="center"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="48" height="48" style="margin: 4px;" /> <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code" width="48" height="48" style="margin: 4px;" /> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="48" height="48" style="margin: 4px;" /> <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLflow" /></p>
+
+
+## 🔗 Connect with Me
+<p align="center"><a href="https://www.linkedin.com/in/muhammad-zain-o1" target="_blank"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Color/LinkedIN.svg" alt="LinkedIN" width="40" height="40" style="margin: 0 8px;"/></a> <a href="mailto:zahidzain234@gmail.com" target="_blank"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Color/Gmail.svg" alt="Gmail" width="40" height="40" style="margin: 0 8px;"/></a></p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zain-0/zain-0/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zain-0/zain-0/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/zain-0/zain-0/output/github-snake.svg" />
+</picture>
+
+
 
 <div align="center">
-  <sub>Reliable agents are engineered systems, not just prompts.</sub>
+  <!---->
 </div>
+
+<p align="center"><sub>Muhammad Zain · <a href="https://www.gitskins.com/readme-generator?template=community-creative-dev-rt3x">creative dev</a> template by <a href="https://www.gitskins.com/creators/himanshu201031">@himanshu201031</a> · generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>

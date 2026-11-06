@@ -17,12 +17,12 @@
 
 ## 📊 GitHub Stats & Trophies
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zain-0&show_icons=true&theme=nightowl&hide_border=true&count_private=true&cache_seconds=86400" alt="zain-0's GitHub Stats" width="49%" />
+  <img src="https://github-stats-extended.vercel.app/api?username=zain-0&show_icons=true&theme=nightowl&hide_border=true&count_private=true&cache_seconds=86400" alt="zain-0's GitHub Stats" width="49%" />
   <img src="https://streak-stats.demolab.com/?user=zain-0&theme=nightowl&hide_border=true&cache_seconds=86400" alt="zain-0's GitHub Streak" width="49%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zain-0&layout=compact&theme=nightowl&hide_border=true&langs_count=10&cache_seconds=86400" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=zain-0&layout=compact&theme=nightowl&hide_border=true&langs_count=10&cache_seconds=86400" alt="Top Languages" />
 </p>
 
 
